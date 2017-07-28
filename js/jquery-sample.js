@@ -5,6 +5,11 @@ $(function() {
     }
 
     $('div').click(function() {
-        
+        $(this).toggleClass('selected');
     });
+    
+    
+    
+    $('#tab1, #tab2').hide();
+    
 });
